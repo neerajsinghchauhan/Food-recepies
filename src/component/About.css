@@ -1,0 +1,89 @@
+.about-container {
+  min-height: calc(100vh - 80px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #fdfbfb 0%, #ebedee 100%);
+  padding: 2rem;
+}
+
+.about-content {
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  padding: 4rem;
+  border-radius: 20px;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.08);
+  max-width: 800px;
+  text-align: center;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  animation: slideUp 0.6s ease;
+}
+
+.about-content h1 {
+  font-size: 3.5rem;
+  color: #333;
+  margin-bottom: 1rem;
+  font-weight: 800;
+  letter-spacing: -1px;
+}
+
+.about-divider {
+  height: 4px;
+  width: 60px;
+  background-color: #ff6b6b;
+  margin: 0 auto 2rem;
+  border-radius: 2px;
+}
+
+.about-lead {
+  font-size: 1.2rem;
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 3rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+}
+
+.feature-card {
+  background: white;
+  padding: 2.5rem 1.5rem;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.03);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+.feature-card h3 {
+  color: #ff6b6b;
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+
+.feature-card p {
+  color: #555;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

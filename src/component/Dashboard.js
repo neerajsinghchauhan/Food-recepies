@@ -3,8 +3,6 @@ import '../App.css';
 import Recipe from './Recipe';
 
 const Dashboard = () => {
-  const APP_ID='8d432cf3'
-  const APP_KEY='718d73847344e21637001011f2dd0af1'
   const [recipes, setRecipes] = useState([]);
   const [search, setSearch] = useState('');
   const [query, setQuery] = useState('Paneer');

@@ -1,0 +1,7 @@
+remote: 
+remote: Create a pull request for 'main' on GitHub by visiting:        
+remote:      https://github.com/neerajsinghchauhan/Food-recepies/pull/new/main        
+remote: 
+branch 'main' set up to track 'origin/main'.
+To https://github.com/neerajsinghchauhan/Food-recepies.git
+ * [new branch]      HEAD -> main
